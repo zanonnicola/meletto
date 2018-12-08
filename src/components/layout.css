@@ -40,10 +40,13 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #606060;
+  text-decoration: none;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: underline;
 }
 abbr[title] {
   border-bottom: none;
@@ -197,8 +200,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: #606060;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -206,6 +209,10 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  background-color: #222522;
+  font-size: 14px;
+  line-height: 1.45;
+  letter-spacing: 1px;
 }
 img {
   max-width: 100%;
@@ -320,6 +327,11 @@ h6 {
   font-size: 0.78405rem;
   line-height: 1.1;
 }
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oxygen', Helvetica Neue, sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
 hgroup {
   margin-left: 0;
   margin-right: 0;
@@ -383,6 +395,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+
 }
 figure {
   margin-left: 0;
@@ -621,4 +634,10 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px
 }

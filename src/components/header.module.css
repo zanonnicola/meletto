@@ -1,0 +1,23 @@
+.nav {
+    margin-top: 65px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h1 {
+    margin: 0;
+}
+.navLinks {
+    position: sticky;
+    top: 65px;
+}
+.navLinks a {
+    margin-left: 15px;
+    color: #E4E4E4;
+    font-szie: 18px;
+    font-family: 'Oxygen', Helvetica Neue, sans-serif;
+}
+.navLinks a:first-child {
+    margin-left: 0;
+}

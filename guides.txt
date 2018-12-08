@@ -1,0 +1,26 @@
+GENERALI SITO MELETTO
+
+
+ROBE CHE POSSO CAMBIARE DAL BACK-END:
+- 8 immagini nella parte sotto HOMEPAGE (NON l’immagine della Bio), il video solo se non è un casino se no non importa
+- Tutte le immagini della pagina WORKS
+- Tutte le immagini delle pagine PRODOTTO
+
+LOGO: NON fisso (scorre con la pagina - sia desktop che mobile)
+MENU: fisso (sia desktop che mobile)
+
+SFONDO: #141414
+SFONDO carosello (pag. works): #000000
+LINEE DIVISORIE: 1px - #202020
+FONT: #606060 oppure #ffffff
+
+HOVER QUADRI: cambia immagine, con fade o slide (pag. works)
+HOVER TESTI (link): sottolineatura
+HOVER LOGO (manda alla homepage): niente (solo manina)
+
+DESCRIZIONE QUADRO (pag. prodotto singolo): tutto fisso! titolo, sottotitolo, testo, tasto “purchase” e freccette, tutti fisso (solo desktop).
+Rimane sempre fisso, quando arriva infondo si sblocca prima che arrivi la sezione successiva (carosello)
+
+
+Se non te capissi qualcosa domanda pure ovviamente
+Grassie MAGO

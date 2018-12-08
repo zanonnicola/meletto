@@ -27,6 +27,7 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
+          <meta name="robots" content="noindex, nofollow" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div

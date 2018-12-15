@@ -4,7 +4,7 @@ import styles from './video.module.css'
 
 const Video = () => (
   <section className={styles.videoWrapper}>
-    <video loop autoPlay muted src={withPrefix('/video.mp4')} />
+    <video loop playsInline autoPlay muted src={withPrefix('/video.mp4')} />
   </section>
 )
 

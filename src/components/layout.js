@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
           <meta name="robots" content="noindex, nofollow" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="wrapper">{children}</div>
+        {children}
       </>
     )}
   />

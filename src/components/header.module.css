@@ -1,16 +1,15 @@
 .nav {
-    margin-top: 65px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav h1 {
-    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 2;
 }
 .navLinks {
-    position: sticky;
+    position: fixed;
     top: 65px;
+    right: 20px;
 }
 .navLinks a {
     margin-left: 15px;

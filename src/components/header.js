@@ -2,19 +2,18 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './header.module.css'
+import logo from './assets/logo.svg'
 
 const Header = ({ siteTitle }) => (
-  <div className="wrapper">
-    <nav className={styles.nav}>
-      <h1>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
-      <div className={styles.navLinks}>
-        <Link to="/works">works</Link>
-        <Link to="/about">about</Link>
-      </div>
-    </nav>
-  </div>
+  <nav className={styles.nav}>
+    <Link to="/" className="global-logo">
+      <img src={logo} alt={siteTitle} />
+    </Link>
+    <div className={styles.navLinks}>
+      <Link to="/works">works</Link>
+      <Link to="/about">about</Link>
+    </div>
+  </nav>
 )
 
 Header.propTypes = {

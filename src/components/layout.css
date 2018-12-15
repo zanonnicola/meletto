@@ -216,14 +216,6 @@ body {
 }
 img {
   max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -640,4 +632,20 @@ pre tt:after {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px
+}
+.section {
+  padding: 95px 0;
+}
+.global-logo {
+  display: block;
+  width: 250px;
+}
+@media only screen and (max-width: 600px) {
+  .global-logo {
+    display: block;
+    width: 150px;
+  }
+  .section {
+    padding: 45px 0;
+  }
 }

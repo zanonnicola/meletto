@@ -209,7 +209,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #222522;
+  background-color: #141414;
   font-size: 14px;
   line-height: 1.45;
   letter-spacing: 1px;
@@ -633,12 +633,29 @@ pre tt:after {
   margin: 0 auto;
   padding: 0 20px
 }
+.text-wrapper {
+  max-width: 630px;
+  margin: 0 auto;
+}
 .section {
   padding: 95px 0;
+  text-align: center;
 }
 .global-logo {
   display: block;
   width: 250px;
+}
+.primary {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.secondary {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.padding-top-50 {
+  padding-top: 50px;
 }
 @media only screen and (max-width: 600px) {
   .global-logo {

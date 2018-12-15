@@ -1,0 +1,51 @@
+.bioImg {
+    text-align: center;
+    border-bottom: 1px solid #202020;
+}
+.bioImgWrapper {
+    max-width: 666px;
+    margin: 0 auto;
+}
+.collage > div {
+    margin-bottom: 10px;
+}
+.collage div:last-of-type {
+    margin-bottom: 0;
+}
+.collage50 > * {
+    float: left;
+    width: 50%;
+}
+.collage32 > * {
+    float: left;
+}
+.collage23 > * {
+    float: left;
+}
+.collage50:after, .collage32:after, .collage23:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.collage50ColL {
+    padding-right: 5px;
+}
+.collage50ColR {
+    padding-left: 5px;
+}
+.collage32ColL {
+    width: 66.1%;
+    padding-right: 5px;
+}
+.collage32ColR {
+    width: 33.19%;
+    padding-left: 5px;
+}
+.collage23ColL {
+    width: 33.19%;
+    padding-right: 5px;
+}
+.collage23ColR {
+    width: 66.1%;
+    padding-left: 5px;
+}

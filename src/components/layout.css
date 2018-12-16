@@ -643,7 +643,7 @@ pre tt:after {
 }
 .global-logo {
   display: block;
-  width: 250px;
+  width: 190px;
 }
 .primary {
   font-size: 36px;
@@ -657,6 +657,19 @@ pre tt:after {
 .padding-top-50 {
   padding-top: 50px;
 }
+.flex {
+  display: flex;
+  overflow: hidden;
+  margin-left: -45px;
+}
+.flex-40 {
+  padding-left: 45px;
+  width: 40%;
+}
+.flex-60 {
+  padding-left: 45px;
+  width: 60%;
+}
 @media only screen and (max-width: 600px) {
   .global-logo {
     display: block;
@@ -664,5 +677,14 @@ pre tt:after {
   }
   .section {
     padding: 45px 0;
+  }
+  .flex {
+    display: block;
+    overflow: unset;
+    margin-left: 0;
+  }
+  .flex-40, .flex-60 {
+    padding-left: 0;
+    width: 100%;
   }
 }

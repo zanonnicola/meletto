@@ -1,11 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import styles from './css/home.module.css'
 import Layout from '../components/layout'
 import Video from '../components/video'
+import Footer from '../components/footer'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -72,17 +72,7 @@ const IndexPage = ({ data }) => (
         <Img fluid={data.collage8.childImageSharp.fluid} />
       </div>
     </section>
-    <div className="wrapper">
-      <p>Saudo!!</p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi laborum
-        aut inventore aspernatur! Ex odit alias ipsam aliquam commodi est
-        praesentium beatae aperiam hic, assumenda rerum excepturi laudantium
-        vero necessitatibus.
-      </p>
-
-      <Link to="/works">Go to Works</Link>
-    </div>
+    <Footer />
   </Layout>
 )
 

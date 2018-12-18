@@ -1,28 +1,18 @@
 backend:
   name: git-gateway
-  repo: zanonnicola/miletto
+  repo: zanonnicola/meletto
   branch: live
 
 media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - file: 'src/pages/works/index.md'
-    label: 'Works'
+  - label: 'Works'
     name: 'works'
+    folder: 'src/pages/works'
+    create: true
     fields:
-      - {
-          label: 'Path',
-          name: 'path',
-          widget: 'hidden',
-          default: '/works',
-        }
-      - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'works',
-        }
-      - { label: Title, name: title, widget: string }
-      - { label: Meta Description, name: metaDescription, widget: string }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Main Image", name: "thumbnail", widget: "image"}
+      - {label: "Hover Image", name: "thumbnailOnHover", widget: "image"}

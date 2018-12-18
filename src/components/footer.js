@@ -16,7 +16,7 @@ const Footer = () => (
               <Link to="/works">Works</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <a href="https://www.etsy.com/shop/MelettoArt">Store</a>
             </li>
           </ul>
         </div>

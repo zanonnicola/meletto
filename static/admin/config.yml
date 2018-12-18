@@ -3,13 +3,13 @@ backend:
   repo: zanonnicola/meletto
   branch: live
 
-media_folder: static/assets
+media_folder: static/img
 public_folder: /assets
 
 collections:
-  - label: 'Works'
-    name: 'works'
-    folder: 'src/pages/works'
+  - label: 'Works Gallery'
+    name: 'gallery'
+    folder: 'src/pages/gallery'
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}

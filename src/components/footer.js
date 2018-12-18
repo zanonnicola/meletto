@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Form from '../components/form'
 import styles from './footer.module.css'
 
 const Footer = () => (
@@ -19,7 +20,9 @@ const Footer = () => (
             </li>
           </ul>
         </div>
-        <div className="flex-60">asdds</div>
+        <div className="flex-60">
+          <Form />
+        </div>
       </div>
       <div className={styles.secondFooter}>
         <div className="flex">

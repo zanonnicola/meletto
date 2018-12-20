@@ -31,4 +31,5 @@ collections:
       - label: "Pictures"
         name: 'pictures'
         widget: 'list'
-        fields: { label: Image, name: image, widget: image }
+        fields: 
+          - { label: Image, name: image, widget: image }

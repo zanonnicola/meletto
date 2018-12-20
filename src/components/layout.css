@@ -641,6 +641,11 @@ pre tt:after {
   padding: 95px 0;
   text-align: center;
 }
+.section--page {
+  padding: 150px 0 0 0;
+  text-align: left;
+  border-bottom: 1px solid #606060;
+}
 .global-logo {
   display: block;
   width: 190px;
@@ -670,13 +675,44 @@ pre tt:after {
   padding-left: 45px;
   width: 60%;
 }
+.grid {
+	overflow: hidden;
+  margin-left: -65px; /* same as your gutter */
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid-col {
+	float: left;
+  width:100%;
+  padding-left: 65px;
+}
+.col-1-3 {
+	width: calc(100% / 3);
+}
 @media only screen and (max-width: 600px) {
+  .grid {
+    margin-left: -30px; /* same as your gutter */
+  }
+  .grid-col {
+    float: none;
+    width:100%;
+    padding-left: 0;
+  }
+  .col-1-3 {
+    width: 100%;
+  }
   .global-logo {
     display: block;
     width: 150px;
   }
   .section {
     padding: 45px 0;
+  }
+  .section--page {
+    padding: 75px 0 0 0;
   }
   .flex {
     display: block;

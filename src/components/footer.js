@@ -4,7 +4,7 @@ import Form from '../components/form'
 import styles from './footer.module.css'
 
 const Footer = () => (
-  <footer className={styles.section}>
+  <footer className={styles.section} id="contact">
     <div className="wrapper">
       <div className="flex">
         <div className="flex-40">

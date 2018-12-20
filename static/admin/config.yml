@@ -16,3 +16,17 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Main Image", name: "thumbnail", widget: "image"}
       - {label: "Hover Image", name: "thumbnailOnHover", widget: "image"}
+  
+  - label: 'Work Single'
+    name: 'work'
+    folder: 'src/pages/works'
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub Title", name: "subtitle", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Link", name: "link", widget: "string"}
+      - label: "Pictures"
+        name: 'pictures'
+        widget: 'list'
+        fields: { label: Image, name: image, widget: image }

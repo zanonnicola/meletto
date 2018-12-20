@@ -646,6 +646,9 @@ pre tt:after {
   text-align: left;
   border-bottom: 1px solid #606060;
 }
+.active {
+  text-decoration: underline;
+}
 .global-logo {
   display: block;
   width: 190px;
@@ -691,6 +694,9 @@ pre tt:after {
 }
 .col-1-3 {
 	width: calc(100% / 3);
+}
+.col-2-3 {
+	width: calc(100% / 3 * 2);
 }
 @media only screen and (max-width: 600px) {
   .grid {

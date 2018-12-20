@@ -1,9 +1,9 @@
 ---
 templateKey: 'work'
-path: /aspetto
+path: /io-forse
 isPage: true
-title: Aspetto
-subtitle: Io corro tanto
+title: Io, forse
+subtitle: Io amo tanto
 description: lorem isoum losdasd asdasdsd
 link: https://www.google.com
 ---

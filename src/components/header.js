@@ -10,8 +10,10 @@ const Header = ({ siteTitle }) => (
       <img src={logo} alt={siteTitle} />
     </Link>
     <div className={styles.navLinks}>
-      <Link to="/works">works</Link>
-      <Link to="/about">about</Link>
+      <Link to="/works" activeClassName="active">
+        works
+      </Link>
+      <a href="#contact">contact</a>
     </div>
   </nav>
 )

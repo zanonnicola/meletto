@@ -678,6 +678,21 @@ pre tt:after {
   padding-left: 45px;
   width: 60%;
 }
+.grid-f:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-f-2-3 {
+  float: left;
+  width: calc((100% / 3 * 2) - (65px/2));
+  margin-right: calc(65px /2);
+}
+.col-f-1-3 {
+  float: left;
+  margin-left: calc(65px /2);
+  width: calc((100% / 3) - (65px/2));
+}
 .grid {
 	overflow: hidden;
   margin-left: -65px; /* same as your gutter */
@@ -697,6 +712,10 @@ pre tt:after {
 }
 .col-2-3 {
 	width: calc(100% / 3 * 2);
+}
+.sticky {
+  position: sticky;
+  top: 150px;
 }
 @media only screen and (max-width: 600px) {
   .grid {
@@ -728,5 +747,18 @@ pre tt:after {
   .flex-40, .flex-60 {
     padding-left: 0;
     width: 100%;
+  }
+  .col-f-2-3 {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+  .col-f-1-3 {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .sticky {
+    position: static;
   }
 }

@@ -1,3 +1,40 @@
 .workImage {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+.title {
+    font-size: 38px;
+    color: #606060;
+    margin: 0 0 10px 0;   
+}
+.subtitle {
+    font-size: 18px;
+    color: #606060;
+    margin: 0 0 40px 0;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+.description {
+    font-szie: 14px;
+    color: #606060;
+    margin: 0 0 65px 0;
+}
+.link {
+    border: 1px solid #606060;
+    font-size: 18px;
+    width: 100%;
+    max-width: 199px;
+    background: transparent;
+    padding: 15px 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: #606060;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.link:hover {
+    background-color: #fff;
+    color: #141414;
+}
+.backLink {
+    margin: 30px 0 70px 0;
+    display: inline-block;
 }

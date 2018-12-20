@@ -1,5 +1,6 @@
 .section {
     padding: 95px 0 0 0;
+    background-color: #000;
 }
 .nav {
     text-align: left;
@@ -15,7 +16,7 @@
     font-family: 'Oxygen', Helvetica Neue, sans-serif;
 }
 .secondFooter {
-    margin: 45px 0 20px 0;
+    padding: 45px 0 20px 0;
     text-align: left;
 }
 .email {

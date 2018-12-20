@@ -1,6 +1,5 @@
 ---
 templateKey: 'work'
-path: /io-forse
 isPage: true
 title: Io, forse
 subtitle: Io amo tanto

@@ -22,6 +22,8 @@ collections:
     folder: 'src/pages/works'
     create: true
     fields:
+      - {label: 'Page', name: 'isPage', widget: 'hidden', default: 'true' }
+      - {label: 'Template Key', name: 'templateKey', widget: 'hidden', default: 'work' }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sub Title", name: "subtitle", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}

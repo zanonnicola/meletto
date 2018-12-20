@@ -1,6 +1,5 @@
 ---
 templateKey: 'work'
-path: /aspetto
 isPage: true
 title: Aspetto
 subtitle: Io corro tanto

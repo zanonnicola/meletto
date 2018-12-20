@@ -6,8 +6,8 @@ import styles from './footer.module.css'
 const Footer = () => (
   <footer className={styles.section} id="contact">
     <div className="wrapper">
-      <div className="flex">
-        <div className="flex-40">
+      <div className="grid">
+        <div className="grid-col col-1-3">
           <ul className={styles.nav}>
             <li>
               <Link to="/">Home</Link>
@@ -20,18 +20,18 @@ const Footer = () => (
             </li>
           </ul>
         </div>
-        <div className="flex-60">
+        <div className="grid-col col-2-3">
           <Form />
         </div>
       </div>
       <div className={styles.secondFooter}>
-        <div className="flex">
-          <div className="flex-40">
+        <div className="grid">
+          <div className="grid-col col-1-3">
             <a className={styles.email} href="mailto:meletto.art@gmail.com">
               meletto.art@gmail.com
             </a>
           </div>
-          <div className="flex-60">
+          <div className="grid-col col-2-3">
             <div className={styles.social}>
               <a href="#0">instagram</a>
               <a href="#0">facebook</a>

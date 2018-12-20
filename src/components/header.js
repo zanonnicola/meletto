@@ -10,10 +10,17 @@ const Header = ({ siteTitle }) => (
       <img src={logo} alt={siteTitle} />
     </Link>
     <div className={styles.navLinks}>
-      <Link to="/works" activeClassName="active">
-        works
-      </Link>
-      <a href="#contact">contact</a>
+      <div className="wrapper">
+        <div className="grid">
+          <div className="grid-col col-2-3">&nbsp;</div>
+          <div className="grid-col col-1-3">
+            <Link to="/works" activeClassName="active">
+              works
+            </Link>
+            <a href="#contact">contact</a>
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 )

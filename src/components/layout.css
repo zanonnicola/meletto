@@ -694,7 +694,7 @@ pre tt:after {
 }
 @media only screen and (max-width: 600px) {
   .grid {
-    margin-left: -30px; /* same as your gutter */
+    margin-left: 0; /* same as your gutter */
   }
   .grid-col {
     float: none;
@@ -712,7 +712,7 @@ pre tt:after {
     padding: 45px 0;
   }
   .section--page {
-    padding: 75px 0 0 0;
+    padding: 150px 0 0 0;
   }
   .flex {
     display: block;

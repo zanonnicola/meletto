@@ -8,8 +8,9 @@ import styles from './work.module.css'
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const imagesToDisplay = post.frontmatter.pictures || []
     //const { next, prev } = this.props.pageContext
-    const workPrictures = post.frontmatter.pictures.map(({ image }, i) => (
+    const workPrictures = imagesToDisplay.map(({ image }, i) => (
       <figure key={`pic-${i}`} className={styles.workImage}>
         <Img fluid={image.childImageSharp.fluid} />
       </figure>

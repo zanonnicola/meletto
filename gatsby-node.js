@@ -31,8 +31,8 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(({ node }, index) => {
       const id = node.id
-      const prev = index === 0 ? false : posts[index - 1].node
-      const next = index === posts.length - 1 ? false : posts[index + 1].node
+      // const prev = index === 0 ? false : posts[index - 1].node
+      // const next = index === posts.length - 1 ? false : posts[index + 1].node
       createPage({
         path: node.fields.slug,
         component: path.resolve(
@@ -41,8 +41,6 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
-          prev,
-          next,
         },
       })
     })

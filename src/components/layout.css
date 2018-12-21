@@ -646,9 +646,6 @@ pre tt:after {
   text-align: left;
   border-bottom: 1px solid #606060;
 }
-.active {
-  text-decoration: underline;
-}
 .global-logo {
   display: block;
   width: 190px;

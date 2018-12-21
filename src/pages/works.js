@@ -12,7 +12,10 @@ const WorksPage = ({ data }) => {
     const { frontmatter, fields } = node
     return (
       <div key={`gallery-${i}`} className="grid-col col-1-3">
-        <Link to={fields.slug} className={styles.box}>
+        <Link
+          to={fields.slug.replace('gallery', 'works')}
+          className={styles.box}
+        >
           <div className={styles.boxInner}>
             <Img fluid={frontmatter.thumbnail.childImageSharp.fluid} />
           </div>

@@ -14,9 +14,7 @@ const Header = ({ siteTitle }) => (
         <div className="grid">
           <div className="grid-col col-2-3">&nbsp;</div>
           <div className="grid-col col-1-3">
-            <Link to="/works" activeClassName="active">
-              works
-            </Link>
+            <Link to="/works">works</Link>
             <a href="#contact">contact</a>
           </div>
         </div>

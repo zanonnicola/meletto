@@ -59,6 +59,7 @@
 }
 .hideOnMobile {
     display: block;
+    margin-bottom: 143px;
 }
 @media only screen and (max-width: 600px) {
     .hideOnDesktop {

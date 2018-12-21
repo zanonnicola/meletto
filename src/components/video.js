@@ -8,9 +8,7 @@ class Video extends React.Component {
     this.video = React.createRef()
   }
   state = {
-    isMobile:
-      typeof window !== 'undefined' &&
-      window.matchMedia('(max-width: 600px)').matches,
+    isMobile: false,
   }
 
   handleVideo = () => {
@@ -18,6 +16,7 @@ class Video extends React.Component {
   }
 
   componentDidMount() {
+    this.setState({ isMobile: window.matchMedia('(max-width: 600px)').matches })
     this.media = window.matchMedia('(max-width: 600px)')
     this.media.addListener(this.handleVideo)
   }

@@ -3,7 +3,12 @@
     padding-bottom: 36.45%; /* 16:9 */
 	height: 0;
 }
-.videoWrapper video {
+.videoWrapperMobile {
+	position: relative;
+    padding-bottom: 100%; /* 2:2 */
+	height: 0;
+}
+.videoWrapper video, .videoWrapperMobile video {
     position: absolute;
 	top: 0;
 	left: 0;

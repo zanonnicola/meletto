@@ -714,6 +714,11 @@ pre tt:after {
   position: sticky;
   top: 150px;
 }
+@media only screen and (max-width: 1000px) {
+  .worksPage .col-1-3 {
+      width: 50%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .grid {
     margin-left: 0; /* same as your gutter */
@@ -724,6 +729,9 @@ pre tt:after {
     padding-left: 0;
   }
   .col-1-3 {
+    width: 100%;
+  }
+  .worksPage .col-1-3 {
     width: 100%;
   }
   .global-logo {

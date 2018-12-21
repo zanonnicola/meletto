@@ -7,7 +7,6 @@ import Layout from '../components/layout'
 import Footer from '../components/footer'
 
 const WorksPage = ({ data }) => {
-  console.log(data)
   const images = data.allMarkdownRemark.edges.map(({ node }, i) => {
     const { frontmatter, fields } = node
     return (
@@ -30,7 +29,7 @@ const WorksPage = ({ data }) => {
   })
   return (
     <Layout>
-      <section className="section section--page">
+      <section className="section section--page worksPage">
         <div className="wrapper">
           <div className="grid">{images}</div>
         </div>

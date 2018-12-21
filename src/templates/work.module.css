@@ -38,3 +38,19 @@
     margin: 30px 0 70px 0;
     display: inline-block;
 }
+.arrowsContainer {
+    margin-bottom: 70px;
+}
+.arrowsContainer > a {
+    display: inline-block;
+    width: 10px;
+}
+.arrowsContainer > a {
+    transition: opacity 0.4s ease-in;
+}
+.arrowsContainer > a:hover {
+    opacity: 0.5;
+}
+.arrowsContainer > a:first-of-type {
+    margin-right: 15px;
+}

@@ -22,3 +22,11 @@
 .navLinks a:first-child {
     margin-left: 0;
 }
+@media only screen and (max-width: 600px) {
+    .nav {
+        top: 25px;
+    }
+    .navLinks {
+        top: 70px;
+    }
+}

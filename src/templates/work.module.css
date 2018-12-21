@@ -54,3 +54,17 @@
 .arrowsContainer > a:first-of-type {
     margin-right: 15px;
 }
+.hideOnDesktop {
+    display: none;
+}
+.hideOnMobile {
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .hideOnDesktop {
+        display: block;
+    }
+    .hideOnMobile {
+        display: none;
+    }
+}

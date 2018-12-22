@@ -5,7 +5,6 @@ import styles from './video.module.css'
 class Video extends React.Component {
   constructor(props) {
     super(props)
-    this.video = React.createRef()
   }
   state = {
     isMobile: false,
@@ -32,7 +31,6 @@ class Video extends React.Component {
         className={isMobile ? styles.videoWrapperMobile : styles.videoWrapper}
       >
         <video
-          ref={this.video}
           loop
           playsInline
           autoPlay

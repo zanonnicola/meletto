@@ -20,7 +20,7 @@ const Footer = () => (
             </li>
           </ul>
         </div>
-        <div className="grid-col col-2-3">
+        <div className="grid-col col-1-3">
           <Form />
         </div>
       </div>

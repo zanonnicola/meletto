@@ -32,10 +32,19 @@
     letter-spacing: 1.5px;
 }
 .social a:first-of-type {
-    margin-right: 7px;
+    margin-right: 15px;
 }
 @media only screen and (max-width: 600px) {
     .section {
-      padding: 45px 0 0 0;
+      padding: 40px 0 0 0;
+    }
+    .nav {
+        margin-bottom: 40px;
+    }
+    .nav li {
+        margin: 0;
+    }
+    .nav a {
+        margin-bottom: 5px;
     }
 }

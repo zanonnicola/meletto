@@ -4,8 +4,8 @@ import React from 'react'
 import styles from './header.module.css'
 import logo from './assets/logo.svg'
 
-const Header = ({ siteTitle }) => (
-  <nav className={styles.nav}>
+const Header = ({ siteTitle, isWorkPage }) => (
+  <nav className={`${styles.nav} ${isWorkPage ? 'worksPage' : ''}`}>
     <div className="wrapper">
       <Link to="/" className="global-logo">
         <img src={logo} alt={siteTitle} />

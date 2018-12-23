@@ -29,7 +29,7 @@ const Carousel = ({ items }) => {
   return (
     <section className={styles.section}>
       <div className="wrapper">
-        <h2 className={styles.heading}>next one</h2>
+        <h2 className={styles.heading}>other works</h2>
         <div className="grid">{images}</div>
       </div>
     </section>

@@ -64,7 +64,7 @@ class WorkTemplate extends React.Component {
                 <div className={styles.hideOnDesktop}>{details}</div>
                 {workPrictures}
                 <Link className={styles.backLink} to="/works">
-                  &lsaquo; back to all paintings
+                  <img src={sx} alt="prev" /> back to all paintings
                 </Link>
               </div>
               <div className="col-f-1-3 sticky">

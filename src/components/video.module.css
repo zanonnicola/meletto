@@ -2,6 +2,7 @@
     position: relative;
     padding-bottom: 36.45%; /* 16:9 */
 	height: 0;
+	border-bottom: 1px solid #272727;
 }
 .videoWrapperMobile {
 	position: relative;

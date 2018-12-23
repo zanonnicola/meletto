@@ -1,9 +1,9 @@
 .bioImg {
     text-align: center;
-    border-bottom: 1px solid #202020;
+    border-bottom: 1px solid #272727;
 }
 .bioImgWrapper {
-    max-width: 666px;
+    max-width: 559px;
     margin: 0 auto;
 }
 .collage > div {

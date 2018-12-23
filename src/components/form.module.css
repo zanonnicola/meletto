@@ -1,5 +1,5 @@
 .form {
-    max-width: 364px;
+    width: 100%;
 }
 .inputWrapper {
     margin-bottom: 35px;
@@ -50,4 +50,9 @@
 .submit:hover {
     background-color: #fff;
     color: #141414;
+}
+@media only screen and (max-width: 600px) {
+    .inputWrapper {
+        margin-bottom: 20px;
+    }
 }

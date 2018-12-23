@@ -28,8 +28,8 @@ const WorksPage = ({ data }) => {
     )
   })
   return (
-    <Layout>
-      <section className="section section--page worksPage">
+    <Layout isWorkPage={true}>
+      <section className="section section--page">
         <div className="wrapper">
           <div className="grid">{images}</div>
         </div>

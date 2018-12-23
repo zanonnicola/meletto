@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import './layout.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, isWorkPage }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -29,8 +29,11 @@ const Layout = ({ children }) => (
           <html lang="en" />
           <meta name="robots" content="noindex, nofollow" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        {children}
+        <Header
+          siteTitle={data.site.siteMetadata.title}
+          isWorkPage={isWorkPage}
+        />
+        <div className={isWorkPage ? 'worksPage' : ''}>{children}</div>
       </>
     )}
   />
@@ -38,6 +41,7 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  isWorkPage: PropTypes.bool,
 }
 
 export default Layout

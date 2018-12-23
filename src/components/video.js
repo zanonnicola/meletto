@@ -21,7 +21,7 @@ class Video extends React.Component {
   }
 
   componentWillUnmount() {
-    this.media.removeEventListener(this.handleVideo)
+    this.media.removeListener(this.handleVideo)
   }
 
   render() {

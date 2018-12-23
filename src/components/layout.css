@@ -629,7 +629,7 @@ pre tt:after {
 }
 
 .wrapper {
-  max-width: 1440px;
+  max-width: 1135px;
   margin: 0 auto;
   padding: 0 20px
 }
@@ -648,7 +648,9 @@ pre tt:after {
 }
 .global-logo {
   display: block;
-  width: 190px;
+  width: 130px;
+  position: relative;
+  z-index: 12;
 }
 .primary {
   font-size: 36px;
@@ -742,7 +744,7 @@ pre tt:after {
     padding: 45px 0;
   }
   .section--page {
-    padding: 150px 0 0 0;
+    padding: 170px 0 0 0;
   }
   .flex {
     display: block;

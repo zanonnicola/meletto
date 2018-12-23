@@ -1,15 +1,14 @@
 .nav {
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0;
     width: 100%;
-    padding: 0 20px;
-    z-index: 10;
+    z-index: 11;
 }
 .navLinks {
     position: fixed;
     z-index: 10;
-    top: 65px;
+    top: 55px;
     left: 0;
     width: 100%;
 }
@@ -24,9 +23,9 @@
 }
 @media only screen and (max-width: 600px) {
     .nav {
-        top: 25px;
+        top: 45px;
     }
     .navLinks {
-        top: 70px;
+        top: 72px;
     }
 }

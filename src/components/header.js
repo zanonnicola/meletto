@@ -6,9 +6,11 @@ import logo from './assets/logo.svg'
 
 const Header = ({ siteTitle }) => (
   <nav className={styles.nav}>
-    <Link to="/" className="global-logo">
-      <img src={logo} alt={siteTitle} />
-    </Link>
+    <div className="wrapper">
+      <Link to="/" className="global-logo">
+        <img src={logo} alt={siteTitle} />
+      </Link>
+    </div>
     <div className={styles.navLinks}>
       <div className="wrapper">
         <div className="grid">

@@ -1,11 +1,12 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import styles from './css/home.module.css'
 import Layout from '../components/layout'
 import Video from '../components/video'
 import Footer from '../components/footer'
+import dx from '../components/assets/freccia-dx.svg'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -32,6 +33,9 @@ const IndexPage = ({ data }) => (
             piece of music. after years of local galleries and independent
             exhibitions, here’s my first online shop for you to enjoy.
           </p>
+          <Link to="works" className={styles.goTo}>
+            see my works now <img src={dx} alt="go" />
+          </Link>
         </div>
       </div>
     </section>

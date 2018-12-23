@@ -2,41 +2,45 @@
     max-width: 364px;
 }
 .inputWrapper {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     border-bottom: 1px solid #606060;
 }
 .inputWrapper input[type="text"], .inputWrapper input[type="email"], .inputWrapper label {
-    border: none;
+    border: 1px solid transparent;
     background: transparent;
     display: block;
     width: 100%;
     color: #fff;
     padding: 10px 2px;
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
 .inputWrapper label {
     color: #606060;
 }
-.inputWrapper input[type="text"]::placeholder, .inputWrapper input[type="email"]::placeholder {
+.inputWrapper input[type="text"]::placeholder, .inputWrapper input[type="email"]::placeholder, .inputWrapper textarea::placeholder {
     color: #606060;
     opacity: 1;
+
 }
 .inputWrapper textarea {
-    border: none;
+    border: 1px solid transparent;
     background: transparent;
     display: block;
     width: 100%;
     color: #fff;
     padding: 10px 2px;
-    font-size: 18px;
-    height: 150px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    height: 100px;
 }
 .inputWrapper input[type="text"]:focus, .inputWrapper input[type="email"]:focus, .inputWrapper textarea:focus {
-    outline-color: #606060;
+    outline: none;
+    border: 1px solid #606060;
 }
 .submit {
     border: 1px solid #606060;
-    font-size: 18px;
+    font-size: 14px;
     background: transparent;
     padding: 15px 60px;
     text-align: center;

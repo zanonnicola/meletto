@@ -29,8 +29,14 @@ const Form = () => (
       />
     </div>
     <div className={styles.inputWrapper}>
-      <label htmlFor="inpArea">Message</label>
-      <textarea name="message" id="inpArea" cols="30" rows="10" required />
+      <textarea
+        name="message"
+        id="inpArea"
+        cols="30"
+        rows="10"
+        required
+        placeholder="message"
+      />
     </div>
     <input className={styles.submit} type="submit" value="Send" />
   </form>

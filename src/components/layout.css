@@ -323,6 +323,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Oxygen', Helvetica Neue, sans-serif;
   font-weight: 300;
   color: #fff;
+  letter-spacing: 2.5px;
 }
 hgroup {
   margin-left: 0;
@@ -638,7 +639,7 @@ pre tt:after {
   margin: 0 auto;
 }
 .section {
-  padding: 95px 0;
+  padding: 80px 0;
   text-align: center;
 }
 .section--page {
@@ -654,10 +655,10 @@ pre tt:after {
 }
 .primary {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .secondary {
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }

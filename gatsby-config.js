@@ -51,7 +51,7 @@ module.exports = {
       options: {
         fonts: [
           `oxygen\:300`,
-          `source sans pro\:400`, // you can also specify font weights and styles
+          `source sans pro\:300`, // you can also specify font weights and styles
         ],
       },
     },

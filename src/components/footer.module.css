@@ -11,7 +11,7 @@
 .nav a {
     display: inline-block;
     font-size: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     color: #535353;
     font-family: 'Oxygen', Helvetica Neue, sans-serif;
 }
@@ -22,12 +22,14 @@
 .email {
     display: inline-block;
     color: #606060;
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
 .social a {
     display: inline-block;
     color: #606060;
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
 .social a:first-of-type {
     margin-right: 7px;

@@ -10,13 +10,13 @@ const Footer = () => (
         <div className="grid-col col-1-3">
           <ul className={styles.nav}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">home</Link>
             </li>
             <li>
-              <Link to="/works">Works</Link>
+              <Link to="/works">works</Link>
             </li>
             <li>
-              <a href="https://www.etsy.com/shop/MelettoArt">Store</a>
+              <a href="https://www.etsy.com/shop/MelettoArt">store</a>
             </li>
           </ul>
         </div>

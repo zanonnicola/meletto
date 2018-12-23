@@ -15,8 +15,8 @@
 .navLinks a {
     margin-left: 15px;
     color: #E4E4E4;
-    font-szie: 18px;
-    font-family: 'Oxygen', Helvetica Neue, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
 .navLinks a:first-child {
     margin-left: 0;

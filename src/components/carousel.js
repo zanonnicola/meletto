@@ -5,11 +5,10 @@ import Img from 'gatsby-image'
 import styles from './carousel.module.css'
 
 const Carousel = ({ items }) => {
-  console.log(items)
   const images = items.map(({ node }, i) => {
     const { frontmatter, fields } = node
     return (
-      <div key={`carousel-${i}`} className="grid-col col-1-3">
+      <div key={`carousel-${i}`} className={styles.gridCol}>
         <Link
           to={fields.slug.replace('gallery', 'works')}
           className={styles.box}
@@ -30,7 +29,9 @@ const Carousel = ({ items }) => {
     <section className={styles.section}>
       <div className="wrapper">
         <h2 className={styles.heading}>other works</h2>
-        <div className="grid">{images}</div>
+        <div className={styles.grid}>
+          <div className={styles.innerGrid}>{images}</div>
+        </div>
       </div>
     </section>
   )

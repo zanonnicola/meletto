@@ -44,3 +44,34 @@
     margin: 0 0 70px 0;
     font-size: 14px;
 }
+.grid {
+    overflow: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.innerGrid {
+    width: 2257px;
+}
+.innerGrid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.gridCol {
+    width: 322px;
+    float: left;
+    margin-right: 65px;
+}
+.gridCol:last-of-type {
+    margin-right: 0;
+} 
+@media only screen and (max-width: 600px) {
+    .innerGrid {
+        width: 1128px;
+    }
+    .gridCol {
+        width: 161px;
+        float: left;
+        margin-right: 35px;
+    }
+}

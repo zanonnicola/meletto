@@ -48,6 +48,8 @@
     overflow: hidden;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: translate3d(0,0,0);
 }
 .innerGrid {
     width: 2257px;
@@ -61,17 +63,24 @@
     width: 322px;
     float: left;
     margin-right: 65px;
+    animation: carousel 30s linear infinite;
 }
 .gridCol:last-of-type {
     margin-right: 0;
 } 
 @media only screen and (max-width: 600px) {
     .innerGrid {
-        width: 1128px;
+        width: 1141px;
     }
     .gridCol {
+        animation: none;
         width: 161px;
         float: left;
         margin-right: 35px;
     }
+}
+
+@keyframes carousel {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
 }

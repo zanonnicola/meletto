@@ -29,6 +29,8 @@ const Carousel = ({ items }) => {
     <section className={styles.section}>
       <div className="wrapper">
         <h2 className={styles.heading}>other works</h2>
+      </div>
+      <div className={styles.fullWidth}>
         <div className={styles.grid}>
           <div className={styles.innerGrid}>{images}</div>
         </div>

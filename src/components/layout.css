@@ -734,7 +734,7 @@ pre tt:after {
 }
 @media only screen and (max-width: 600px) {
   .wrapper {
-    padding: 0 27px
+    padding: 0 23px
   }
   .grid {
     margin-left: 0; /* same as your gutter */

@@ -3,6 +3,11 @@
     padding: 70px 0 0 0;
     border-top: 1px solid #272727;
 }
+.fullWidth {
+    overflow: hidden;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 .heading {
     color: #606060;
     margin: 0 0 65px 0;
@@ -46,8 +51,6 @@
 }
 .grid {
     overflow: hidden;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
     -webkit-backface-visibility: hidden;
     -webkit-transition: translate3d(0,0,0);
 }
@@ -77,6 +80,16 @@
         width: 161px;
         float: left;
         margin-right: 35px;
+    }
+    .grid {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+    .fullWidth {
+        overflow: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 23px;
     }
 }
 

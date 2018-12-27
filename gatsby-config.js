@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://www.meletto.art`,
-    title:
-      'Italian contemporary independent artist (b.1990) based in Vicenza, Italy.',
+    title: 'Meletto Art | Italian contemporary independent artist',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

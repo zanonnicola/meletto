@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
@@ -29,6 +30,18 @@ const WorksPage = ({ data }) => {
   })
   return (
     <Layout isWorkPage={true}>
+      <Helmet
+        title="Meletto Art | Paintings"
+        meta={[
+          {
+            name: 'description',
+            content:
+              'Subjects are usually human-shaped figures in still poses but are involved in dynamic illusory scenes that represent their inner state in that specific moment, in one word their feelings. Explore all the works.',
+          },
+        ]}
+      >
+        <html lang="en" />
+      </Helmet>
       <section className="section section--page">
         <div className="wrapper">
           <div className="grid">{images}</div>

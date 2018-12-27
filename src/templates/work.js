@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import Footer from '../components/footer'
@@ -57,6 +58,15 @@ class WorkTemplate extends React.Component {
     )
     return (
       <Layout isWorkPage={true}>
+        <Helmet
+          title={`${post.frontmatter.title} | Meletto Art`}
+          meta={[
+            {
+              name: 'description',
+              content: `${post.frontmatter.description}`,
+            },
+          ]}
+        />
         <section className="section section--page">
           <div className="wrapper">
             <div className="grid-f">

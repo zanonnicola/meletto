@@ -56,7 +56,7 @@ class WorkTemplate extends React.Component {
       </React.Fragment>
     )
     return (
-      <Layout>
+      <Layout isWorkPage={true}>
         <section className="section section--page">
           <div className="wrapper">
             <div className="grid-f">

@@ -38,7 +38,7 @@ const Form = () => (
         placeholder="message"
       />
     </div>
-    <input className={styles.submit} type="submit" value="Send" />
+    <input className={styles.submit} type="submit" value="send" />
   </form>
 )
 

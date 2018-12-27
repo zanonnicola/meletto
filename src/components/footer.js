@@ -33,8 +33,8 @@ const Footer = () => (
           </div>
           <div className="grid-col col-2-3">
             <div className={styles.social}>
-              <a href="#0">instagram</a>
-              <a href="#0">facebook</a>
+              <a href="https://www.instagram.com/meletto.art/">instagram</a>
+              <a href="https://www.facebook.com/meletto.art/">facebook</a>
             </div>
           </div>
         </div>

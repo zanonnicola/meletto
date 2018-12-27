@@ -22,12 +22,14 @@ const Layout = ({ children, isWorkPage }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                'Best known for creating energetic dynamic artworks, he often builds his compositions using an exasperated distorted perspective to create attractive compositions that are then filled with vibrant colours, resulting in a genuine original style.',
+            },
           ]}
         >
           <html lang="en" />
-          <meta name="robots" content="noindex, nofollow" />
         </Helmet>
         <Header
           siteTitle={data.site.siteMetadata.title}

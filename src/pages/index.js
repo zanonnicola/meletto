@@ -17,10 +17,10 @@ const IndexPage = ({ data }) => (
         <h2 className="secondary">a brief story</h2>
         <div className="text-wrapper padding-top-50">
           <p>
-            painting is probably the only thing I can actually do naturally, i
+            painting is probably the only thing i can actually do naturally, i
             mean letting everything go avoiding any kind of overthinking… this
-            is why i still do it. being fascinated by the Italian Futurism’s
-            aesthetic code and the colours of Impressionists, i tend to combine
+            is why i still do it. being fascinated by the italian futurism’s
+            aesthetic code and the colours of impressionists, i tend to combine
             few pictorial techniques. from oil to inks, pastels and markers on
             canvas or wooden supports. i typically represent human-shaped
             figures in still poses but involved in dynamic illusory scenes to

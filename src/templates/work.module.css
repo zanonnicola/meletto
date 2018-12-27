@@ -4,7 +4,9 @@
 .title {
     font-size: 38px;
     color: #606060;
-    margin: 0 0 10px 0;   
+    margin: 0 0 10px 0;
+    text-transform: lowercase;
+    line-height: 39px;   
 }
 .subtitle {
     font-size: 19px;
@@ -29,6 +31,7 @@
     color: #606060;
     display: inline-block;
     margin-bottom: 30px;
+    border-radius: none;
 }
 .link:hover {
     background-color: #fff;
@@ -66,6 +69,8 @@
 .hideOnMobile {
     display: block;
     margin-bottom: 143px;
+    position: relative;
+    top: -13px;
 }
 @media only screen and (max-width: 600px) {
     .hideOnDesktop {

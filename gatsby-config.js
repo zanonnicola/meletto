@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://meletto.netlify.com`,
-    title: 'Meleto Art',
+    siteUrl: `https://www.meletto.art`,
+    title:
+      'Italian contemporary independent artist (b.1990) based in Vicenza, Italy.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

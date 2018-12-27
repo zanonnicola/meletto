@@ -17,6 +17,10 @@
     color: #E4E4E4;
     font-size: 14px;
     letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.navLinks a:focus {
+    text-decoration: none;
 }
 .navLinks a:first-child {
     margin-left: 0;

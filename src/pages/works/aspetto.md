@@ -15,9 +15,9 @@ link: >-
   https://www.etsy.com/listing/652702738/hand-painted-painting-original?ref=shop_home_active_13&frs=1
 pictures:
   - image: /assets/aspetto-painting-meletto.jpg
-  - image: /assets/aspetto-painting-meletto-macro-1.jpg
   - image: /assets/aspetto-painting-meletto-macro-6.jpg
-  - image: /assets/aspetto-painting-meletto-macro-2.jpg
+  - image: /assets/aspetto-painting-meletto-macro-1.jpg
   - image: /assets/aspetto-painting-meletto-mockup-1bw.jpg
+  - image: /assets/aspetto-painting-meletto-macro-2.jpg
 ---
 

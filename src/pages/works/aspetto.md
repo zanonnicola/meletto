@@ -1,17 +1,19 @@
 ---
-isPage: true
+isPage: 'true'
 templateKey: work
-title: aria(nna)
-subtitle: Io corro tanto
+title: aspetto
+subtitle: 'oil colours on wood, 40x80, 2017'
 description: >-
-  Part of the second colection, this piece is hand painted on canvas. It's got a
-  great contemporary feel, with large, thick brush strokes. This painting has
-  several oil layers that build up the colour and shape, including interesting
-  brush strokes that add interest when seen up close. It is finished with chalk
-  pastel marks to add unique edge.
-link: 'https://www.etsy.com/your/shops/MelettoArt/tools/listings/651505192'
+  translated as “i wait”, this particular painting was made in 2016 as part of
+  the second collection. the subject is portrayed in two different moments at
+  the same time, a feature that is most visible in the part of its head.
+  numerous horizontal sections cross the composition to best represent the
+  emotionally passive and static moment. the colour palette consists mostly in
+  black, white and shades of light brown, but also energetic brush strokes of
+  green, blue and pink refine the entire painting
+link: >-
+  https://www.etsy.com/listing/652702738/hand-painted-painting-original?ref=shop_home_active_13&frs=1
 pictures:
-  - image: /assets/1.jpg
-  - image: /assets/2.jpg
+  - {}
 ---
 

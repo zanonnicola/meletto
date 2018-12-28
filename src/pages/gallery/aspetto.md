@@ -1,7 +1,7 @@
 ---
-title: aria(nna)
-description: 'oil colours on canvas, 60x80, 2016'
-thumbnail: /img/hover-1.jpg
-thumbnailOnHover: /img/hover-2.jpg
+title: aspetto
+description: 'oil colours on wood, 40x80, 2017'
+thumbnail: /assets/aspetto-1.jpg
+thumbnailOnHover: /assets/aspetto-2.jpg
 ---
 

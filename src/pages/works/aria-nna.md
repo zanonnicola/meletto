@@ -1,0 +1,23 @@
+---
+isPage: true
+templateKey: work
+title: aria(nna)
+subtitle: 'oil on canvas, 60x80, 2013'
+description: >-
+  all shades of warm colours come together in this energetic composition. part
+  of the second collection, it is a portrait of a singer named arianna. several
+  layers of nervous brush strokes build the figure with colour and shape
+  creating the perfect representation of her dynamic personality. this unique
+  painting was hand painted with oil colours and pastels on canvas as a
+  universal celebration of music.
+link: >-
+  https://www.etsy.com/listing/651505192/music-painting-hand-painted-canvas?ref=shop_home_active_14&frs=1
+pictures:
+  - image: /assets/ari-anna-painting-meletto.jpg
+  - image: /assets/ari-anna-painting-meletto-mockup-2.jpg
+  - image: /assets/ari-anna-painting-meletto-macro-3.jpg
+  - image: /assets/ari-anna-painting-meletto-macro-2.jpg
+  - image: /assets/ari-anna-painting-meletto-mockup-1bw.jpg
+  - image: /assets/ari-anna-painting-meletto-macro-4.jpg
+---
+

@@ -1,7 +1,7 @@
 ---
 isPage: true
 templateKey: work
-title: Aspetto
+title: aria(nna)
 subtitle: Io corro tanto
 description: >-
   Part of the second colection, this piece is hand painted on canvas. It's got a

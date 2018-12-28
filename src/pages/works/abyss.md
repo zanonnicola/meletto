@@ -1,7 +1,7 @@
 ---
 isPage: 'true'
 templateKey: work
-title: abyss
+title: Abyss
 subtitle: 'oil colours on canvas, 40x40, 2018'
 description: >-
   this squared canvas is part of the second collection. it was painted in london

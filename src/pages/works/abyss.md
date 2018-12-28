@@ -1,5 +1,5 @@
 ---
-isPage: 'true'
+isPage: true
 templateKey: work
 title: Abyss
 subtitle: 'oil colours on canvas, 40x40, 2018'

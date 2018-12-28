@@ -1,5 +1,5 @@
 ---
-isPage: 'true'
+isPage: true
 templateKey: work
 title: aspetto
 subtitle: 'oil colours on wood, 40x80, 2017'

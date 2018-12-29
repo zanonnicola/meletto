@@ -1,6 +1,6 @@
 .nav {
     position: absolute;
-    top: 40px;
+    top: 41px;
     left: 0;
     width: 100%;
     z-index: 11;
@@ -19,7 +19,7 @@
     letter-spacing: 1.5px;
     text-decoration: none;
 }
-.navLinks a:focus {
+.navLinks a:focus, .navLinks a:active {
     text-decoration: none;
 }
 .navLinks a:first-child {

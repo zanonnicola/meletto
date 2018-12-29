@@ -63,9 +63,9 @@
     clear: both;
 }
 .gridCol {
-    width: 322px;
+    width: 277px;
     float: left;
-    margin-right: 65px;
+    margin-right: 60px;
     animation: carousel 30s linear infinite;
 }
 .gridCol:last-of-type {

@@ -15,11 +15,11 @@ link: >-
 pictures:
   - image: /assets/aspetto-painting-meletto.jpg
   - image: /assets/aspetto-painting-meletto-macro-6.jpg
-  - image: /assets/aspetto-painting-meletto-macro-7.jpg
+  - image: /assets/aspetto-painting-meletto-macro-3.jpg
   - image: /assets/aspetto-painting-meletto-macro-1.jpg
   - image: /assets/aspetto-painting-meletto-mockup-1bw.jpg
+  - image: /assets/aspetto-painting-meletto-macro-7.jpg
   - image: /assets/aspetto-painting-meletto-macro-2.jpg
-  - image: /assets/aspetto-painting-meletto-macro-3.jpg
   - image: /assets/aspetto-painting-meletto-macro-4.jpg
   - image: /assets/aspetto-painting-meletto-macro-5c.jpg
 ---

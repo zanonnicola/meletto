@@ -18,5 +18,7 @@ pictures:
   - image: /assets/abyss-painting-meletto-macro-3.jpg
   - image: /assets/abyss-painting-meletto-mockup-1bw.jpg
   - image: /assets/abyss-painting-meletto-macro-2.jpg
+  - image: /assets/abyss-painting-meletto-macro-1.jpg
+  - image: /assets/abyss-painting-meletto-mockup-1-2bw.jpg
 ---
 

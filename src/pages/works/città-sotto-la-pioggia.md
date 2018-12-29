@@ -4,12 +4,11 @@ templateKey: work
 title: città sotto la pioggia
 subtitle: 'oil on canvas, 100x30, 2009'
 description: >-
-  translated as “the city under the rain”, this wide painting was made in 2009
-  as a part of the first collection. the colour palette consists in a great
-  variety of cold colours and in little part of dark yellow and brown. a
-  particular feature of the composition is that a couple of parts, represented
-  by two windows, have been painted in black and white to represent the scene
-  seen from an interior ambience.
+  translated as “the city under the rain”, the colour palette of this painting
+  consists of a great variety of cold colours and in a little part of dark
+  yellow and brown. a particular feature of the composition is that a couple of
+  parts, represented by two windows, have been painted in black and white to
+  represent the scene seen from an interior ambience.
 link: >-
   https://www.etsy.com/listing/662867745/hand-painted-original-contemporary-art?ref=shop_home_active_16&frs=1
 pictures:

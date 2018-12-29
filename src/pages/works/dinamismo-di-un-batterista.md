@@ -19,7 +19,7 @@ pictures:
   - image: /assets/dinamismo_di_un_batterista-painting-meletto-macro-2.jpg
   - image: /assets/dinamismo_di_un_batterista-painting-meletto-macro-5.jpg
   - image: /assets/dinamismo_di_un_batterista-painting-meletto-mockup-1bw.jpg
-  - image: /assets/dinamismo_di_un_batterista-painting-meletto-macro-4.jpg
   - image: /assets/dinamismo_di_un_batterista-painting-meletto-macro-7.jpg
+  - image: /assets/dinamismo_di_un_batterista-painting-meletto-macro-4.jpg
 ---
 

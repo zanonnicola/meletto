@@ -2,7 +2,7 @@
 isPage: true
 templateKey: work
 title: Abyss
-subtitle: 'oil colours on canvas, 40x40, 2018'
+subtitle: 'oil on canvas, 40x40, 2018'
 description: >-
   this squared canvas was painted in london combining shades of yellow and green
   oil colours. thick brush strokes fill the entire surface of the canvas and

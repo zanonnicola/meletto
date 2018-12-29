@@ -47,7 +47,7 @@
     transition: all 0.3s ease;
     color: #606060;
     letter-spacing: 1.5px;
-    border-radius: none;
+    border-radius: 0;
     -webkit-appearance: none;
     width: 100%;
     max-width: 169px;

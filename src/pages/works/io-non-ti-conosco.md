@@ -14,10 +14,10 @@ link: >-
 pictures:
   - image: /assets/io_non_ti_conosco-painting-meletto.jpg
   - image: /assets/io_non_ti_conosco-painting-meletto-mockup-2.jpg
-  - image: /assets/io_non_ti_conosco-painting-meletto-macro-1.jpg
+  - image: /assets/io_non_ti_conosco-painting-meletto-macro-4.jpg
   - image: /assets/io_non_ti_conosco-painting-meletto-macro-2.jpg
   - image: /assets/io_non_ti_conosco-painting-meletto-mockup-1bw.jpg
   - image: /assets/io_non_ti_conosco-painting-meletto-macro-3.jpg
-  - image: /assets/io_non_ti_conosco-painting-meletto-macro-4.jpg
+  - image: /assets/io_non_ti_conosco-painting-meletto-macro-1.jpg
 ---
 

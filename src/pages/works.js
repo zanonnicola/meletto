@@ -8,26 +8,30 @@ import Layout from '../components/layout'
 import Footer from '../components/footer'
 
 const WorksPage = ({ data }) => {
-  const images = data.allMarkdownRemark.edges.map(({ node }, i) => {
-    const { frontmatter, fields } = node
-    return (
-      <div key={`gallery-${i}`} className="grid-col col-1-3">
-        <Link
-          to={fields.slug.replace('gallery', 'works')}
-          className={styles.box}
-        >
-          <div className={styles.boxInner}>
-            <Img fluid={frontmatter.thumbnail.childImageSharp.fluid} />
-          </div>
-          <div className={styles.boxInner}>
-            <Img fluid={frontmatter.thumbnailOnHover.childImageSharp.fluid} />
-          </div>
-        </Link>
-        <h3 className={styles.title}>{frontmatter.title}</h3>
-        <p className={styles.description}>{frontmatter.description}</p>
-      </div>
-    )
-  })
+  const images = data.allMarkdownRemark.edges
+    .sort((a, b) => {
+      return Number(a.node.frontmatter.order) - Number(b.node.frontmatter.order)
+    })
+    .map(({ node }, i) => {
+      const { frontmatter, fields } = node
+      return (
+        <div key={`gallery-${i}`} className="grid-col col-1-3">
+          <Link
+            to={fields.slug.replace('gallery', 'works')}
+            className={styles.box}
+          >
+            <div className={styles.boxInner}>
+              <Img fluid={frontmatter.thumbnail.childImageSharp.fluid} />
+            </div>
+            <div className={styles.boxInner}>
+              <Img fluid={frontmatter.thumbnailOnHover.childImageSharp.fluid} />
+            </div>
+          </Link>
+          <h3 className={styles.title}>{frontmatter.title}</h3>
+          <p className={styles.description}>{frontmatter.description}</p>
+        </div>
+      )
+    })
   return (
     <Layout isWorkPage={true}>
       <Helmet

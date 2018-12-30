@@ -14,6 +14,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1, default: 1}
       - {label: "Main Image", name: "thumbnail", widget: "image"}
       - {label: "Hover Image", name: "thumbnailOnHover", widget: "image"}
   

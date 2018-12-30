@@ -18,8 +18,8 @@ pictures:
   - image: /assets/golden_gate_park-painting-meletto-mockup-2.jpg
   - image: /assets/golden_gate_park-painting-meletto-macro-1.jpg
   - image: /assets/golden_gate_park-painting-meletto-macro-4.jpg
-  - image: /assets/golden_gate_park-painting-meletto-mockup-1bw.jpg
   - image: /assets/golden_gate_park-painting-meletto-macro-2.jpg
+  - image: /assets/golden_gate_park-painting-meletto-mockup-1bw.jpg
   - image: /assets/golden_gate_park-painting-meletto-macro-5.jpg
 ---
 

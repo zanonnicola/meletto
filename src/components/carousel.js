@@ -40,7 +40,8 @@ const Carousel = ({ items }) => {
             wrapAround={true}
             cellAlign="center"
             autoplay={true}
-            slideIndex={3}
+            easing="easeQuadOut"
+            edgeEasing="easeQuadOut"
           >
             {images}
           </Nuka>

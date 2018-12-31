@@ -30,7 +30,7 @@ class WorkTemplate extends React.Component {
           normalizeSlug(node.fields.slug) !== this.props.location.pathname
       )
       .sort(() => 0.5 - Math.random())
-      .slice(0, 6)
+      .slice(0, 7)
 
     const workPrictures = imagesToDisplay.map(({ image }, i) => (
       <figure key={`pic-${i}`} className={styles.workImage}>

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import Nuka from 'nuka-carousel'
 import Img from 'gatsby-image'
 import styles from './carousel.module.css'
 
@@ -32,7 +33,18 @@ const Carousel = ({ items }) => {
       </div>
       <div className={styles.fullWidth}>
         <div className={styles.grid}>
-          <div className={styles.innerGrid}>{images}</div>
+          <Nuka
+            cellSpacing={60}
+            slideWidth="277px"
+            withoutControls={true}
+            wrapAround={true}
+            cellAlign="center"
+            autoplay={true}
+            slideIndex={3}
+          >
+            {images}
+          </Nuka>
+          {/* <div className={styles.innerGrid}>{images}</div> */}
         </div>
       </div>
     </section>

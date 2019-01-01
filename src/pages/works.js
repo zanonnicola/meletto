@@ -70,6 +70,7 @@ export const worksQuery = graphql`
           frontmatter {
             title
             description
+            order
             thumbnail {
               childImageSharp {
                 fluid(maxWidth: 724, maxHeight: 724) {

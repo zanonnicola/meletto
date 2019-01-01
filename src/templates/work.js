@@ -43,7 +43,12 @@ class WorkTemplate extends React.Component {
         <h1 className={styles.title}>{post.frontmatter.title}</h1>
         <h2 className={styles.subtitle}>{post.frontmatter.subtitle}</h2>
         <p className={styles.description}>{post.frontmatter.description}</p>
-        <a className={styles.link} href={post.frontmatter.link}>
+        <a
+          className={styles.link}
+          target="_blank"
+          rel="noopener"
+          href={post.frontmatter.link}
+        >
           purchase
         </a>
         <div className={styles.arrowsContainer}>

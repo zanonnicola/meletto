@@ -54,8 +54,8 @@ const Carousel = ({ items }) => {
                     cellAlign="center"
                     autoplay={true}
                     swiping={true}
-                    easing="easeQuadOut"
-                    edgeEasing="easeQuadOut"
+                    easing="easeQuadInOut"
+                    edgeEasing="easeQuadInOut"
                   >
                     {images}
                   </Nuka>
@@ -72,8 +72,8 @@ const Carousel = ({ items }) => {
                     cellAlign="left"
                     autoplay={true}
                     swiping={true}
-                    easing="easeQuadOut"
-                    edgeEasing="easeQuadOut"
+                    easing="easeQuadInOut"
+                    edgeEasing="easeQuadInOut"
                   >
                     {images}
                   </Nuka>

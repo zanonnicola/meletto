@@ -21,6 +21,7 @@
 .box {
     position: relative;
     display: block;
+    cursor: ew-resize;
 }
 .box:before {
     content: "";

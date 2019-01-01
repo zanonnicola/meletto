@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
+import ReactBreakpoints from 'react-breakpoints'
 import Layout from '../components/layout'
 import Footer from '../components/footer'
 import Carousel from '../components/carousel'
@@ -11,6 +12,11 @@ import sx from '../components/assets/freccia-sx.svg'
 
 function normalizeSlug(slug) {
   return slug.replace('gallery', 'works') + '/'
+}
+const breakpoints = {
+  mobile: 600,
+  desktop: 601,
+  wide: 1500,
 }
 class WorkTemplate extends React.Component {
   render() {
@@ -30,7 +36,7 @@ class WorkTemplate extends React.Component {
           normalizeSlug(node.fields.slug) !== this.props.location.pathname
       )
       .sort(() => 0.5 - Math.random())
-      .slice(0, 6)
+      .slice(0, 7)
 
     const workPrictures = imagesToDisplay.map(({ image }, i) => (
       <figure key={`pic-${i}`} className={styles.workImage}>
@@ -88,7 +94,9 @@ class WorkTemplate extends React.Component {
             </div>
           </div>
         </section>
-        <Carousel items={carouselItems} />
+        <ReactBreakpoints breakpoints={breakpoints} debounceResize={true}>
+          <Carousel items={carouselItems} />
+        </ReactBreakpoints>
         <Footer />
       </Layout>
     )

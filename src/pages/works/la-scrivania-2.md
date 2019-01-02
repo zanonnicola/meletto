@@ -17,7 +17,7 @@ pictures:
   - image: /assets/la_scrivania_2-painting-meletto-macro-1.jpg
   - image: /assets/la_scrivania_2-painting-meletto-macro-2.jpg
   - image: /assets/la_scrivania_2-painting-meletto-mockup-1bw.jpg
-  - image: /assets/la_scrivania_2-painting-meletto-macro-4.jpg
   - image: /assets/la_scrivania_2-painting-meletto-macro-3.jpg
+  - image: /assets/la_scrivania_2-painting-meletto-macro-4.jpg
 ---
 

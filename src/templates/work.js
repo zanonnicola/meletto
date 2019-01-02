@@ -53,7 +53,7 @@ class WorkTemplate extends React.Component {
           <a
             className={styles.link}
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             href={post.frontmatter.link}
           >
             purchase

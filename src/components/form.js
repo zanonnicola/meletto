@@ -3,13 +3,18 @@ import styles from './form.module.css'
 
 const Form = () => (
   <form
-    name="contact"
+    name="contactme"
     method="POST"
-    action="#"
+    action="/thanks"
     netlify-honeypot="bot-field"
     data-netlify="true"
     className={styles.form}
   >
+    <div style={{ display: 'none' }}>
+      <label>
+        Don’t fill this out if you're human: <input name="bot-field" />
+      </label>
+    </div>
     <div className={styles.inputWrapper}>
       <input
         type="text"

@@ -9,8 +9,7 @@ description: >-
   is represented from above in a very close shot while it is staring at the
   viewer. it is graphically divided into four parts by strong oblique lines that
   cross the entire canvas.
-link: >-
-  https://www.etsy.com/listing/666548449/hand-painted-painting-original?ref=shop_home_active_11&frs=1
+link: ''
 pictures:
   - image: /assets/io_non_ti_conosco-painting-meletto.jpg
   - image: /assets/io_non_ti_conosco-painting-meletto-mockup-2.jpg

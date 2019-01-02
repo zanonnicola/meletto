@@ -15,6 +15,7 @@ const Form = () => (
         Don’t fill this out if you're human: <input name="bot-field" />
       </label>
     </div>
+    <input type="hidden" name="form-name" value="contactme" />
     <div className={styles.inputWrapper}>
       <input
         type="text"

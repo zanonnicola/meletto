@@ -14,10 +14,10 @@ link: ''
 pictures:
   - image: /assets/la_scrivania-painting-meletto.jpg
   - image: /assets/la_scrivania-painting-meletto-mockup-2.jpg
-  - image: /assets/la_scrivania-painting-meletto-macro-4.jpg
   - image: /assets/la_scrivania-painting-meletto-macro-2.jpg
-  - image: /assets/la_scrivania-painting-meletto-mockup-1bw2.jpg
   - image: /assets/la_scrivania-painting-meletto-macro-1.jpg
+  - image: /assets/la_scrivania-painting-meletto-mockup-1bw2.jpg
+  - image: /assets/la_scrivania-painting-meletto-macro-4.jpg
   - image: /assets/la_scrivania-painting-meletto-macro-3.jpg
 ---
 

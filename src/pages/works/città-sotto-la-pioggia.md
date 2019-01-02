@@ -9,8 +9,7 @@ description: >-
   yellow and brown. a particular feature of the composition is that a couple of
   parts, represented by two windows, have been painted in black and white to
   represent the scene seen from an interior ambience.
-link: >-
-  https://www.etsy.com/listing/662867745/hand-painted-original-contemporary-art?ref=shop_home_active_16&frs=1
+link: ''
 pictures:
   - image: /assets/citta_sotto_la_pioggia-painting-meletto.jpg
   - image: /assets/citta_sotto_la_pioggia-painting-meletto-mockup-2.jpg

@@ -31,10 +31,11 @@ class WorkTemplate extends React.Component {
     // Shuffle to generate random order
     // Pick 3 items
     const carouselItems = carousel
-      .filter(
-        ({ node }) =>
-          normalizeSlug(node.fields.slug) !== this.props.location.pathname
-      )
+      .filter(({ node }) => {
+        return (
+          normalizeSlug(node.fields.slug) !== `${this.props.location.pathname}/`
+        )
+      })
       .sort(() => 0.5 - Math.random())
       .slice(0, 6)
 

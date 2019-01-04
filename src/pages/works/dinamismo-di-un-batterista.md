@@ -9,8 +9,7 @@ description: >-
   stratification helps to create a great texture made by energic brush strokes.
   the entire painting is built on tense curved force lines that produce great
   dynamism and rhythm, as representing the sound produced by the drums.
-link: >-
-  https://www.etsy.com/listing/652706536/hand-painted-dark-painting-original?ref=shop_home_active_12&frs=1
+link: ''
 pictures:
   - image: /assets/dinamismo_di_un_batterista-painting-meletto.jpg
   - image: /assets/dinamismo_di_un_batterista-painting-meletto-macro-6.jpg

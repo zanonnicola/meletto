@@ -15,9 +15,9 @@ pictures:
   - image: /assets/linda-painting-meletto.jpg
   - image: /assets/linda-painting-meletto-mockup-2.jpg
   - image: /assets/linda-painting-meletto-macro-1.jpg
-  - image: /assets/linda-painting-meletto-macro-3.jpg
   - image: /assets/linda-painting-meletto-macro-2.jpg
   - image: /assets/linda-painting-meletto-macro-5.jpg
+  - image: /assets/linda-painting-meletto-macro-3.jpg
   - image: /assets/linda-painting-meletto-mockup-1bw.jpg
   - image: /assets/linda-painting-meletto-macro-4.jpg
 ---

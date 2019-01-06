@@ -14,9 +14,9 @@ link: >-
 pictures:
   - image: /assets/manuela-painting-meletto.jpg
   - image: /assets/manuela-painting-meletto-macro-2b.jpg
-  - image: /assets/manuela-painting-meletto-macro-3.jpg
   - image: /assets/manuela-painting-meletto-mockup-1bw.jpg
   - image: /assets/manuela-painting-meletto-macro-1b.jpg
+  - image: /assets/manuela-painting-meletto-macro-3.jpg
   - image: /assets/manuela-painting-meletto-mockup-2.jpg
   - image: /assets/manuela-painting-meletto-mockup-1-2bwb.jpg
   - image: /assets/manuela-painting-meletto-macro-4.jpg

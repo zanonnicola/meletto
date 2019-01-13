@@ -7,8 +7,8 @@ description: >-
   the concept of “truth” materializes in a human-shaped figure standing straight
   in front of the viewer. the entire composition is built on a vertical symmetry
   that gives a very powerful appearance to the painting. one more original
-  feature is the great contrast warm and cold colours, from such the saturated
-  red-orange to the very dark blue.
+  feature is the great contrast of warm and cold colours, from such the
+  saturated red-orange to the very dark blue.
 link: >-
   https://www.etsy.com/listing/667450305/hand-painted-painting-original?ref=shop_home_active_1&frs=1
 pictures:

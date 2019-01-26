@@ -633,7 +633,8 @@ pre tt:after {
   /* max-width: 1215px; */
   max-width: 1700px;
   margin: 0 auto;
-  padding: 0 68px
+  /* padding: 0 68px */
+  padding: 0 100px
 }
 .text-wrapper {
   max-width: 630px;

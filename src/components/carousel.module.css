@@ -109,7 +109,8 @@
     .carousel {
         /* max-width: 1215px;
         margin: 0 auto; */
-        padding: 0 68px 70px 68px;
+        /* padding: 0 68px 70px 68px; */
+        padding: 0 100px 70px 100px;
     }
 }
 

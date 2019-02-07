@@ -1,85 +1,86 @@
 .workImage {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .title {
-    font-size: 38px;
-    color: #606060;
-    margin: 0 0 10px 0;
-    text-transform: lowercase;
-    line-height: 39px;   
+  font-size: 38px;
+  color: #606060;
+  margin: 0 0 10px 0;
+  text-transform: lowercase;
+  line-height: 39px;
 }
 .subtitle {
-    font-size: 19px;
-    color: #606060;
-    margin: 0 0 40px 0;
-    font-family: 'Source Sans Pro', sans-serif;   
+  font-size: 19px;
+  color: #606060;
+  margin: 0 0 40px 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .description {
-    font-szie: 14px;
-    color: #606060;
-    margin: 0 0 55px 0;
+  font-szie: 14px;
+  color: #606060;
+  margin: 0 0 55px 0;
 }
 .link {
-    border: 1px solid #606060;
-    font-size: 14px;
-    width: 100%;
-    max-width: 169px;
-    background: transparent;
-    padding: 15px 5px;
-    text-align: center;
-    transition: all 0.3s ease;
-    color: #606060;
-    display: inline-block;
-    margin-bottom: 30px;
-    border-radius: none;
+  border: 1px solid #606060;
+  font-size: 14px;
+  width: 100%;
+  max-width: 169px;
+  background: transparent;
+  padding: 15px 5px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #606060;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: none;
 }
 .link:hover {
-    background-color: #fff;
-    color: #141414;
-    text-decoration: none;
+  background-color: #fff;
+  color: #141414;
+  text-decoration: none;
 }
 .backLink {
-    margin: 30px 0 70px 0;
-    display: inline-block;
+  margin: 30px 0 70px 0;
+  display: inline-block;
 }
 .backLink > img {
-    display: inline-block;
-    width: 5px;
-    margin-right: 10px;
+  display: inline-block;
+  width: 5px;
+  margin-right: 10px;
 }
 .arrowsContainer {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 .arrowsContainer > a {
-    display: inline-block;
-    width: 8px;
+  display: inline-block;
+  width: 8px;
 }
 .arrowsContainer > a {
-    transition: opacity 0.4s ease-in;
+  transition: opacity 0.4s ease-in;
 }
 .arrowsContainer > a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 .arrowsContainer > a:first-of-type {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 .hideOnDesktop {
-    display: none;
+  display: none;
 }
 .hideOnMobile {
-    display: block;
-    margin-bottom: 143px;
-    position: relative;
-    top: -13px;
+  display: block;
+  margin-bottom: 143px;
+  position: relative;
+  top: -13px;
+  padding-left: 9px;
 }
 @media only screen and (max-width: 600px) {
-    .hideOnDesktop {
-        display: block;
-    }
-    .hideOnMobile {
-        display: none;
-    }
-    .arrowsContainer > a:first-of-type {
-        margin-right: 30px;
-    }
+  .hideOnDesktop {
+    display: block;
+  }
+  .hideOnMobile {
+    display: none;
+  }
+  .arrowsContainer > a:first-of-type {
+    margin-right: 30px;
+  }
 }

@@ -66,7 +66,7 @@ const Carousel = ({ items }) => {
                 <div className={styles.carousel}>
                   <Nuka
                     cellSpacing={60}
-                    slideWidth="277px"
+                    slideWidth="377px"
                     withoutControls={true}
                     wrapAround={true}
                     cellAlign="left"

@@ -41,7 +41,7 @@ class WorkTemplate extends React.Component {
 
     const workPrictures = imagesToDisplay.map(({ image }, i) => (
       <figure key={`pic-${i}`} className={styles.workImage}>
-        <Img fluid={image.childImageSharp.fluid} />
+        {(image && image.childImageSharp) ? (<Img fluid={image.childImageSharp.fluid} />) : null}
       </figure>
     ))
 

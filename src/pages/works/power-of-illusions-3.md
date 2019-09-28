@@ -16,8 +16,8 @@ pictures:
   - image: /assets/power_of_illusions-painting-meletto_3-4.jpg
   - image: /assets/power_of_illusions-painting-meletto-mockup-1.jpg
   - image: /assets/power_of_illusions-painting-meletto_3-5.jpg
-  - image: /assets/power_of_illusions-painting-meletto_3-7.jpg
   - image: /assets/power_of_illusions-painting-meletto_3-3.jpg
+  - image: /assets/power_of_illusions-painting-meletto_3-7.jpg
   - image: /assets/power_of_illusions-painting-meletto_3-6.jpg
 ---
 

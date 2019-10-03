@@ -10,7 +10,7 @@ description: >-
   feature is the great contrast between warm and cold colours, from saturated
   red-orange to very dark blue.
 link: >-
-  https://www.etsy.com/listing/667450305/hand-painted-painting-original?ref=shop_home_active_1&frs=1
+  https://www.amazon.it/Meletto-verit%C3%A0/dp/B07YLZT8TS/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-5
 pictures:
   - image: /assets/verita-painting-meletto.jpg
   - image: /assets/verita-painting-meletto-mockup-2.jpg

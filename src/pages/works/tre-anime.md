@@ -11,7 +11,7 @@ description: >-
   compositional style and colour scheme in order to create a coherent unique
   composition.
 link: >-
-  https://www.etsy.com/listing/653608476/triptych-hand-painted-painting-original?ref=shop_home_active_2&frs=1
+  https://www.amazon.it/Meletto-Tre-Anime/dp/B07YM13KRD/ref=sr_1_3?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-3
 pictures:
   - image: /assets/tre_anime-painting-meletto.jpg
   - image: /assets/tre_anime-painting-meletto-mockup-2.jpg

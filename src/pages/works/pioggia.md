@@ -10,7 +10,7 @@ description: >-
   not. the colour palette used that includes several shades of blue and green
   with a touch of pink and red to add a vibrant contrast.
 link: >-
-  https://www.etsy.com/listing/653601700/hand-painted-painting-original?ref=shop_home_active_4&frs=1
+  https://www.amazon.it/Meletto-Pioggia/dp/B07YLZFKGP/ref=sr_1_7?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-7
 pictures:
   - image: /assets/pioggia-painting-meletto.jpg
   - image: /assets/pioggia-painting-meletto-mockup-2.jpg

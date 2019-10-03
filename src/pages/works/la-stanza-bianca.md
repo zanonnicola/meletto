@@ -11,7 +11,7 @@ description: >-
   canvas has been left white all around the borders, another original feature of
   this painting.
 link: >-
-  https://www.etsy.com/listing/653018228/hand-painted-painting-original?ref=shop_home_active_9&frs=1
+  https://www.amazon.it/Meletto-La-Stanza-Bianca/dp/B07YLZYV98/ref=sr_1_4?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-4
 pictures:
   - image: /assets/la_stanza_bianca-painting-meletto.jpg
   - image: /assets/la_stanza_bianca-painting-meletto-mockup-2.jpg

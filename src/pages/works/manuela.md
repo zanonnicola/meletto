@@ -10,7 +10,7 @@ description: >-
   and yellow. a final layer of saturated red-pink coloured lines lays on top of
   the composition creating a vibrant effect.
 link: >-
-  https://www.etsy.com/listing/666860369/hand-painted-painting-original?ref=shop_home_active_8&frs=1
+  https://www.amazon.it/Meletto-Manuela/dp/B07YLYZ98J/ref=sr_1_9?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-9
 pictures:
   - image: /assets/manuela-painting-meletto.jpg
   - image: /assets/manuela-painting-meletto-macro-2b.jpg

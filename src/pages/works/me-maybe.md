@@ -9,7 +9,7 @@ description: >-
   anymore, questioning its true nature. the figure is involved in a dynamic
   vortex made by harsh brush strokes that creates a very energetic scene.
 link: >-
-  https://www.etsy.com/listing/665337263/hand-painted-green-painting-contemporary?ref=shop_home_active_14&frs=1
+  https://www.amazon.it/Meletto-Me-Maybe/dp/B07YLYWVTX/ref=sr_1_10?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-10
 pictures:
   - image: /assets/memaybe-painting-meletto.jpg
   - image: /assets/memaybe-painting-meletto-mockup-2.jpg

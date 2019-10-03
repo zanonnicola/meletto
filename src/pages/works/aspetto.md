@@ -11,7 +11,7 @@ description: >-
   covered in black and shades of light brown, but energetic brushstrokes of
   green, blue and pink were added to refine the painting.
 link: >-
-  https://www.etsy.com/listing/652702738/hand-painted-painting-original?ref=shop_home_active_13&frs=1
+  https://www.amazon.it/Meletto-Aspetto/dp/B07YLYMQZC/ref=sr_1_17?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133830&s=kitchen&sr=1-17
 pictures:
   - image: /assets/aspetto-painting-meletto.jpg
   - image: /assets/aspetto-painting-meletto-macro-6.jpg

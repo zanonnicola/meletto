@@ -11,7 +11,7 @@ description: >-
   the colour palette mainly consists of various shades of blue with a touch of
   purple.
 link: >-
-  https://www.etsy.com/listing/667444431/hand-painted-painting-original?ref=shop_home_active_3&frs=1
+  https://www.amazon.it/Meletto-Qualcunaltro/dp/B07YLZ523N/ref=sr_1_8?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-8
 pictures:
   - image: /assets/qualcun_altro-painting-meletto.jpg
   - image: /assets/qualcun_altro-painting-meletto-mockup-2.jpg

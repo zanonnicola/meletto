@@ -5,8 +5,9 @@ title: 'aspetto #2'
 subtitle: 'oil on canvas, 30x40, 2019'
 description: >-
   this painting represents a person sitting on top of an endless artificial
-  parallelepiped in the middle of an ethereal scenery. to depict this particular
-  moment, the colour palette mainly consists of various shades of blue and red.
+  parallelepiped in the middle of an ethereal scenery in the act of waiting. to
+  depict this particular moment, the colour palette mainly consists of various
+  shades of blue and red.
 link: ''
 pictures:
   - image: /assets/aspetto_2-painting-meletto.jpg

@@ -4,11 +4,10 @@ templateKey: work
 title: 'power of illusions #3'
 subtitle: 'oil on wood, 48x80, 2019'
 description: >-
-  infinite brush strokes build this vibrant composition with an explosion of
-  saturated colours. the power of illusions is represented as an elegant
-  human-shaped figure that seems to expand its physical limits to be part of the
-  background and vice versa. on the canvas, everything becomes chaos in constant
-  movement.
+  the power of illusions is represented as a dynamic human-shaped figure posing
+  on the ground in front of the viewer. this colourful painting was made using a
+  distorted perspective that gives a very dynamic effect to the composition. the
+  particular colour palette used includes different shades of green and yellow.
 link: ''
 pictures:
   - image: /assets/power_of_illusions-painting-meletto_3.jpg

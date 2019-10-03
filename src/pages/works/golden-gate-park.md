@@ -11,7 +11,7 @@ description: >-
   strokes of white red and purple enhance the colourful impact of the
   composition for the viewer.
 link: >-
-  https://www.etsy.com/listing/643991964/hand-painted-original-contemporary-art?ref=shop_home_active_18&frs=1
+  https://www.amazon.it/Meletto-Golden-Gate-Park/dp/B07YLZG4KT/ref=sr_1_13?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=meletto+dipinto&qid=1570133868&s=kitchen&sr=1-13
 pictures:
   - image: /assets/golden_gate_park-painting-meletto.jpg
   - image: /assets/golden_gate_park-painting-meletto-macro-3.jpg

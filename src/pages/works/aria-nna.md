@@ -10,8 +10,7 @@ description: >-
   creating the perfect representation of her dynamic personality. this unique
   painting was hand painted with oil colours and pastels on canvas as a
   universal celebration of music.
-link: >-
-  https://www.etsy.com/listing/651505192/music-painting-hand-painted-canvas?ref=shop_home_active_14&frs=1
+link: ''
 pictures:
   - image: /assets/ari-anna-painting-meletto.jpg
   - image: /assets/ari-anna-painting-meletto-mockup-2.jpg
